@@ -135,16 +135,16 @@ const UpdateSection = () => {
             </button>
 
             {/* section to show a dummy picture */}
-            <div className="flex h-[200px] justify-center items-center m-2">
+            <div className="flex h-[100px] justify-center items-center m-2 ">
 
                 {/* image container */}
-                <div className="w-[200px] h-full bg-black rounded-full overflow-hidden ">
+                <div className="w-[100px] h-full bg-black rounded-full overflow-hidden ">
                     <img src={require('../Assets/dummy-avatar.jpg')} alt="avatar" />
                 </div>
             </div>
 
             {/* form container showing all the values */}
-            <div className="bg-[#313866] p-2 rounded">
+            <div className="bg-[#313866] p-2 rounded ">
                 {/* form */}
                 <form onSubmit={handleSubmit}>
                     {/* table for forms layout */}
@@ -154,7 +154,7 @@ const UpdateSection = () => {
                             <tr>
                                 <td>
                                     {/* for label */}
-                                    <label for="name" className="text-white font-semibold">
+                                    <label for="name" className="text-white font-semibold ">
                                         Name:
                                     </label>
                                 </td>

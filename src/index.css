@@ -1,7 +1,13 @@
 /* all the tailwind css links */
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 
 
 /* body tag */
@@ -12,12 +18,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
 
 
 /* styling the scrollbar  */
@@ -31,3 +43,6 @@ code {
   border-radius: 10px;
   height: 10px;
 }
+
+
+@import 'tailwindcss/utilities';
